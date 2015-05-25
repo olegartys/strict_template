@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+<!-- Header -->
+	<header id="main_header">
+		<nav id="nav">
+			<img src="image/header_logo.gif">
+			<a href="index.php">STRICT</a>
+		</nav>
+	</header>
+
+<!-- Banner -->
+	<section id="banner">
+		<div class="content">
+			<header>
+				<h3>STRICT</h3>
+				<hr />
+				<p>
+					STRICT is a responsive theme with a clean and minimal look.
+				</p>
+			</header>
+			<button>Call to action</button>
+		</div>
+		<a href="#description" id="next"> </a>
+	</section>
+
+<!--Description-->
+	<section id="description">
+		<div class="content">
+			<header>
+				<h1>Simple & pure design.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</header>
+
+			<ul>
+				<li>
+					<img src="image/icon_1.jpg"/>
+					<h1>Optimized for all devices</h1>
+					<p>
+						STRICT has been designed to be fully<br> responnsive on all devices
+					</p>
+				</li>
+
+				<li>
+					<img src="image/icon_2.jpg"/>
+					<h1>Clean & Minimal Design</h1>
+					<p>
+						STRICT has been designed to be fully<br> responnsive on all devices
+					</p>
+				</li>
+
+				<li>
+					<img src="image/icon_3.jpg"/>
+					<h1>Font Awesome Icon</h1>
+					<p>
+						STRICT has been designed to be fully<br> responnsive on all devices
+					</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+<!-- Gallery -->
+	<section id="gallery">
+		<div class="content">
+			<header>
+				<h1>Showcase your work like a pro.</h1>
+				<p>Contact me if you like my work</p>
+			</header>
+			<ul>
+					<li><img src="image/image1.jpg" /></li>
+					<li><img src="image/image2.jpg" /></li>
+					<li><img src="image/image3.jpg" /></li>
+			</ul>
+
+			<ul>
+				<li><img src="image/image4.jpg" /></li>
+				<li><img src="image/image5.jpg" /></li>
+				<li><img src="image/image6.jpg" /></li>
+			</ul>
+		</div>
+	</section>
+
+<!-- Form -->
+	<section id="form">
+		<div class="content">
+			<header>
+				<h1>Stay with us</h1>
+				<p>We ensure quailty and support</p>
+			</header>
+			<form action="registration.php" method="POST">
+				<input type="text" id="name" placeholder="Full Name" />
+				<input type="email" id="email" placeholder="Email Address" />
+				<input type="text" id="message" placeholder="Message" />
+
+				<input type="checkbox" id="subsc"/>
+				<label for="subsc">Subscribe Newsletter</label>	
+				<button type="submit">Send</button>
+			</form>
+		</div>
+	</section>
+
+	<footer></footer>
+	
+</body>
+</html>
