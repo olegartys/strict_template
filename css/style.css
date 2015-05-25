@@ -1,0 +1,304 @@
+@font-face {
+	font-family: "lato_bold";
+	src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+	font-family: "myriad_regular";
+	src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+	font-family: "lato_regular";
+	src: url(../fonts/Lato-Regular.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+.content {
+	vertical-align: middle;
+	text-align: center;
+	font-family: "lato_regular";
+}
+
+.content h1 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 28px;
+	font-family: "lato_bold";
+}
+
+.content p {
+	line-height: 1.5;
+	font-weight: 100;
+	color: #999999;
+}
+
+.content ul {
+	padding: 0;
+	margin-top: 20px;
+}
+
+.content ul li {
+	margin: 30px;
+	list-style: none;
+	display: inline-block;
+}
+
+/*****************************************************/
+
+#main_header {
+
+	width: 100%;
+	height: 80px;
+
+	position: absolute;
+	background: transparent;
+
+	line-height: 80px;
+	top: 0;
+	left: 0;
+	overflow: hidden;/*
+	-webkit-box-shadow: 0 0 8px 0 #3D3D3D;
+	box-shadow: 0 0 8px 0 #3D3D3D;
+	z-index: 1000;*/
+
+}
+
+#main_header nav {
+
+	margin-left: 15%;
+	height: 100%;
+
+	vertical-align: middle;
+}
+
+#main_header nav a {
+	/*color: #2d3950;*/
+	color: white;
+	text-decoration: none;
+
+	vertical-align: inherit;
+
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 800;
+
+	margin-left: 5px;
+}
+
+#main_header nav img {
+	vertical-align: inherit;
+
+	height: 40%;
+	width: auto;
+}
+
+/************************************************************/
+#banner {
+	background-image: url(../image/banner_image.jpg);
+	
+	background-position: .center center;
+	
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+
+	text-align: center;
+}
+
+#banner .content {
+	display: inline-block;
+	max-width: 95%;
+	padding-top: 50vh;
+	margin-top: -300px;
+/*	padding: 6em;
+*/	position: relative;
+	vertical-align: middle;
+}
+
+#banner .content header {
+	background: transparent;
+	padding: 60px 200px;
+/*	display: inline;
+*/	/*width: 100%;*/
+}
+
+#banner .content h3 {
+	overflow: hidden;
+
+	font-size: 12vw;
+	font-family: "lato_bold";
+
+	color: white;
+	margin: 15px;
+	width: 100%;
+}
+
+#banner .content hr {
+	border-color: #15a4fa;
+	border-style: solid;
+}
+
+#banner .content p {
+	margin-top: 30px;
+	color: white;
+	font-family: "myriad_regular";
+}
+
+#banner .content button {
+	transition: all 0.5s ease;
+	color: white;
+	font-family: "myriad_regular";
+	background: transparent;
+	border: 2px solid #15a4fa;
+	padding: 17px 30px 15px 30px;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+
+#banner .content button:hover {
+	background: #15a4fa;
+}
+
+#banner .content button:active {
+	transition: none;
+	background: #10749f;
+}
+
+#banner #next {
+	background-image: url(../image/arrow.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	margin-top: 20px;
+	height: 32px;
+	left: 50%;
+	margin-left: -16px;
+	position: absolute;
+	top: 90%;
+	width: 32px;
+}
+/************************************************************/
+
+#description {
+	text-align: center;
+	text-decoration: none;
+}
+
+#description header {
+	padding: 60px 200px;
+	background-color: #f6f9f9;
+}
+
+#description .content ul li img {
+	height: 128px;
+	width: 128px;
+}
+
+#description .content ul li h1 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+/************************************************************/
+
+#gallery {
+	text-align: center;
+}
+
+#gallery .content {
+	background-color: #f6f9f9;
+}
+
+#gallery header {
+	padding: 40px 200px 0px 200px;
+}
+
+#gallery ul {
+	margin-top: -10	px;
+}
+
+/************************************************************/
+
+#form .content {
+	background-image: url(../image/send_bg.jpg);
+	background-size: cover;
+	min-height: 100vh;
+}
+
+#form .content header {
+	padding-top: 60px;
+}
+
+#form .content h1 {
+	color: white;
+	font-size: 42px;	
+	font-weight: 50;
+}
+
+#form p {
+	margin-top: 5px;
+	margin-bottom: 45px;
+}
+
+#form #name, #email {
+	height: 45px;
+}
+
+#form #message {
+	height: 100px;
+}
+
+#form #name, #email, #message {
+	vertical-align: middle;
+	display: block;
+	width: 100%;
+
+	margin-bottom: 10px;
+
+	border: 1px solid #999999;
+	border-radius: 4px;
+
+	background: transparent;
+
+	padding: 0px 10px;
+}
+
+#form #subsc {
+	vertical-align: left;
+	margin: 0;
+	left: 0;
+	position: static;
+	display: inline;
+}
+
+#form form {
+	margin: 0 auto;
+	width: 500px;
+}
+
+
+/*#banner:before {
+	content: '';
+	display: inline-block;
+	height: 50%;
+	vertical-align: middle;
+	width: 1%;
+}
+
+#banner:after {
+	
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+*/
